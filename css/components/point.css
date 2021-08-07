@@ -1,0 +1,10 @@
+.point__cog {
+    background-color: tomato;
+    width: 6px;
+    height: 6px;
+    display: flex;
+    border-radius: 3px;
+    position: absolute;
+    left: 75px;
+    bottom: 25px;
+}
