@@ -26,8 +26,16 @@
 }
 
 body {
+    overflow-y: scroll;
+    overflow-x: scroll;
     color: #2e363e;
+    height: 150vh;
+    background-color: rgb(213, 247, 164);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+img {
+    object-fit: cover;
 }
 
 .main-screen {

@@ -56,6 +56,7 @@
     height: 15px;
     border-radius: 50%;
     margin-right: 5px;
+    object-fit: cover
 }
 
 .open-post__member-count {

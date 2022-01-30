@@ -1,6 +1,6 @@
 #chat-screen {
-    background-color: #abc1d1;
-    height: 500vh;
+    height: 100vh;
+    background-color: rgb(213, 247, 164);
 }
 
 #chat-screen .alt-header,
@@ -9,7 +9,7 @@
     position: fixed;
     width: 100%;
     box-sizing: border-box;
-    background-color: #abc1d1;
+    background-color: rgb(213, 247, 164);
 }
 
 #chat-screen .status-bar {
@@ -66,6 +66,11 @@
     border-radius: 50%;
 }
 
+.no__author {
+    margin-top: -20px;
+    margin-left: 60px;
+}
+
 .message__author {
     margin-bottom: 5px;
     display: block;
@@ -86,7 +91,7 @@
 }
 
 .message__bubble {
-    background-color: white;
+    background-color: rgb(180, 218, 129);
     padding: 13px;
     font-size: 18px;
     border-radius: 15px;
@@ -129,6 +134,7 @@
     box-sizing: border-box;
     align-items: center;
     transition: all 0.3s ease-in-out;
+    background-color: rgb(180, 218, 129);
 }
 
 .reply .reply__column:first-child {
@@ -146,6 +152,7 @@
     border: var(--main-border);
     border-radius: 20px;
     transition: all 0.3s ease-in-out;
+    background-color: rgb(180, 218, 129);
 }
 
 .reply__column:last-child>i,
@@ -165,7 +172,7 @@
 }
 
 .reply__column button {
-    background-color: var(--yellow);
+    background-color: rgb(213, 247, 164);
     border: none;
     width: 30px;
     height: 30px;
