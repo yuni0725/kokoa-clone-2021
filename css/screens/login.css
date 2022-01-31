@@ -27,6 +27,7 @@
     padding: 15px 0px;
     font-size: 18px;
     margin-bottom: 25px;
+    background-color: rgb(180, 218, 129);
 }
 
 #login-form input:not([type="submit"]) {
@@ -39,11 +40,11 @@
 }
 
 #login-form input:focus {
-    border-color: var(--yellow)
+    border-color: rgb(180, 218, 129);
 }
 
 #login-form input[type="submit"] {
-    background-color: var(--yellow);
+    background-color: rgb(180, 218, 129);
     cursor: pointer;
     padding: 20px 0px;
     border-radius: 5px;
